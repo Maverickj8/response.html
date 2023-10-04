@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./images/Premium\ Chiffon\ Hijabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+  @media (min-width: 600px) {
+nav h2 {
+    display: flex;
+    float: left;
+    padding: 0px 20px;
+}
+nav ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+    padding-top: 10px;
+}
+nav ul li a {
+    padding: 50px 50px;
+    text-decoration: none;
+    color: rgba(100, 48, 48, 0.779);
+    
+
+}
+.landing {
+    position: absolute;
+    height: 70vh;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 250px;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(229, 101, 101);
+    text-shadow: 2px 2px 5px black;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(97, 46, 46);
+    padding-top: 5px;
+
+
+}
+.ref {
+    padding-top: 20px;
+    
+   
+}
+.reff {
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 40px;
+    color: antiquewhite;
+    border-radius: 10px 30px;
+    
+}
+}
+@media (max-width: 600px) {
+    
+ nav h2 {
+        display: flex;
+        padding: 0px 20px; 
+
+}
+nav ul {
+    display: block;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgba(100, 48, 48, 0.779);
+    font-size: larger;
+    font-weight: 500;
+    
+}
+.landing {
+    position: absolute;
+    height: 70vh;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(229, 101, 101);
+    text-shadow: 2px 2px 5px black;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(97, 46, 46);
+    padding-top: 5px;
+
+
+}
+.ref {
+    padding-top: 20px;
+    
+   
+}
+.reff {
+    text-decoration: none;
+    background-color: brown;
+    padding: 10px 40px;
+    color: antiquewhite;
+    border-radius: 10px 30px;
+    
+}
+
+}
+
+@media (max-width: 200px) {
+body {
+    background-image: url(./images/Premium\ Chiffon\ Hijabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+}
